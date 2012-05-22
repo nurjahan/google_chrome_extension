@@ -1,1 +1,1 @@
-pass all images of the current web-page from content script to backgrpund page.background page creats a canvas and make image processing for each of the images. but problem is all the images share the same canvas. so, we get jus one url for all images rather than  uniqye url for each images.
+pass smallest images of the current web-page from content script to backgrpund page.background page creats a canvas and make image processing the image .it works for brightness with 8 orientations.did not include nonmax suppression
