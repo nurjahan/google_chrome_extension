@@ -124,5 +124,5 @@ function FeatureCombination(BrGm,Ort,w,h)
 		document.write("<br>");
 		document.write("<br>");
 	}*/
-	return maxMagnitude;
+	return [maxMagnitude,Orientation];
 }

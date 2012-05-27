@@ -40,6 +40,8 @@ function BrightnessGradient(image,Ort,bin,radius,w,h)
 		document.write("<br>");
 	}*/
 	FComb=FeatureCombination(BrGm,Ort,w,h);
+	maxMag=FComb[0];
+	maxOrt=FComb[1];
 	//return BGMagnitude;
 	return FComb;
 }
